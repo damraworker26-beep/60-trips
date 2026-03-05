@@ -1,0 +1,139 @@
+/*
+Theme Name: Luxe Voyages
+Theme URI: https://luxevoyages.com
+Author: Antigravity
+Description: A premium, fast, and multi-language luxury travel theme.
+Version: 1.0.0
+Text Domain: luxe-voyages
+*/
+
+/* Core Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-gold: #C49A27;
+    --dark-navy: #050a18;
+    --medium-blue: #0a1128;
+    --solid-bg: #0d152b;
+    --solid-border: rgba(255, 255, 255, 0.1);
+    --text-white: #ffffff;
+    --text-dim: rgba(255, 255, 255, 0.7);
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+body {
+    font-family: 'Outfit', 'Noto Sans Arabic', sans-serif;
+    background-color: var(--dark-navy);
+    color: var(--text-white);
+    line-height: 1.6;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    text-align: left;
+}
+
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* Header & Navigation */
+#main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    direction: ltr !important;
+}
+
+#main-header .logo img {
+    height: 90px !important;
+    width: auto !important;
+}
+
+#main-header nav {
+    order: 2 !important;
+}
+
+#main-header nav ul {
+    background-color: var(--primary-gold) !important;
+    border-radius: 50px !important;
+    padding: 14px 70px !important;
+    display: flex !important;
+    gap: 55px !important;
+    list-style: none;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    direction: ltr !important;
+}
+
+#main-header nav ul li a {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: var(--transition);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+#main-header nav ul li a:hover {
+    opacity: 0.7;
+    transform: translateY(-1px);
+}
+
+#main-header .header-actions {
+    order: 3 !important;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    direction: ltr !important;
+}
+
+#main-header .lang-select {
+    background-color: var(--primary-gold);
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 25px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: inherit;
+    appearance: none;
+    text-align: center;
+}
+
+.login-btn {
+    color: var(--text-white);
+    background: transparent;
+    border: 1px solid var(--primary-gold);
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.login-btn:hover {
+    background: var(--primary-gold);
+    color: #000;
+}
+
+
+/* Mobile: Styles moved to mobile/mobile.css */
