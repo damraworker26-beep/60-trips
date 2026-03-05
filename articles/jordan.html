@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan: Desert Echoes | 60 Trips Luxury Guide</title>
+    <meta name="description"
+        content="Discover the ancient wonders of Jordan. From the rose-red city of Petra to the Martian landscapes of Wadi Rum and the therapeutic Dead Sea.">
+    <meta name="keywords"
+        content="Jordan travel, Petra wonders, Wadi Rum desert, Dead Sea wellness, Amman history, Nabataean heritage">
+    <meta property="og:type" content="article">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-gold: #C49A27;
+            --dark-navy: #0a0a0a;
+            --medium-blue: #111111;
+            --solid-bg: #050505;
+            --solid-border: rgba(255, 255, 255, 0.1);
+            --text-white: #ffffff;
+            --text-dim: rgba(255, 255, 255, 0.7);
+            --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: calc(100% - 50px);
+        }
+
+        .container-fluid {
+            width: 98%;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            font-family: 'Outfit', 'Noto Sans Arabic', sans-serif;
+            padding-top: 140px;
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .article-section img {
+            display: block;
+            width: calc(100% - 50px);
+            max-width: 750px;
+            height: 500px;
+            margin: 30px auto;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        @media (max-width: 1024px) {
+            .article-section img {
+                height: 350px;
+            }
+        }
+
+        .intro {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #1a1a1a;
+            text-align: center;
+        }
+
+        .article-section {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: #1a1a1a;
+            text-align: center;
+        }
+
+        h3 {
+            color: var(--primary-gold);
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            color: #C49A27;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 1024px) {
+            h3 {
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+                margin-bottom: 6px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h3 {
+                margin-top: 12px;
+                margin-bottom: 8px;
+            }
+
+            h4 {
+                margin-top: 8px;
+                margin-bottom: 5px;
+            }
+        }
+
+        .conclusion {
+            max-width: 800px;
+            margin: 40px auto;
+            padding-bottom: 60px;
+            color: #1a1a1a;
+        }
+
+        
+
+        /* --- Why Choose & Guest Experiences - Balanced Luxury --- */
+        .trust-section {
+            padding: 0 0 15px;
+            margin-top: -20px;
+            background: var(--dark-navy);
+            text-align: center;
+        }
+
+        .trust-section h2 {
+            font-size: 2.2rem !important;
+            margin-bottom: 8px;
+            margin-top: 0;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .trust-section .section-tag {
+            margin-bottom: 2px;
+            padding-top: 0 !important;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .trust-item i {
+            font-size: 2rem !important;
+            color: var(--primary-gold);
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .trust-item h4 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .trust-item p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+
+        .testimonials {
+            padding: 20px 0 25px;
+            background: var(--dark-navy);
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2.2rem !important;
+            margin-bottom: 12px;
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .testimonials .section-tag {
+            margin-bottom: 4px;
+            padding-top: 0 !important;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 12px;
+            padding: 25px 30px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card .fa-quote-left {
+            color: var(--primary-gold);
+            font-size: 1.5rem !important;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .testimonial-card p {
+            font-size: 1.05rem !important;
+            line-height: 1.7;
+            color: var(--text-dim);
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .testimonial-card i.fa-quote-left {
+            color: var(--primary-gold);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .section-tag {
+            color: var(--primary-gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: block;
+            margin: 0;
+            padding-top: 0;
+        }
+    
+        @media (max-width: 1024px) {
+            .trust-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="shared-header-container"></div>
+
+    <p class="intro" data-i18n="intro">Jordan is a kingdom of time-honored hospitality and breathtaking desert
+        landscapes. Nestled at the crossroads of ancient empires, it is a land where the rose-red facades of Petra
+        emerge from rock walls and the martian-like stillness of Wadi Rum offers a silence that is almost spiritual.
+        From the buoyancy of the Dead Sea to the Roman echoes of Amman, Jordan is a destination that balances adventure
+        with deep cultural connection.</p>
+
+    <div class="article-section">
+        <h3 data-i18n="sec1_h">1. Petra: The Rose-Red Majesty</h3>
+        <img src="images/Jordan/1.jpg"
+            alt="The iconic Treasury (Al-Khazneh) of Petra emerging from the narrow Siq canyon in the morning light">
+        <p data-i18n="sec1_p">Entering Petra through the Siq, a narrow canyon of towering rock walls, is one of the most
+            cinematic and emotionally charged experiences in travel. As the path twists and turns, the Treasury
+            (Al-Khazneh) suddenly emerges from the shadows, its ornate facade carved directly into the pink sandstone
+            more than two thousand years ago. This Nabataean city, once a thriving hub of the incense and spice trade,
+            is a masterpiece of art and ancient civil engineering. Hidden from the Western world for centuries until its
+            rediscovery in 1812, Petra remains a powerful symbol of human ingenuity. Visitors can wander through the
+            Street of Facades, climb to the High Place of Sacrifice, or marvel at the colossal Monastery, each step
+            revealing the deep spiritual and commercial history of the Nabataean people.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec2_h">2. Wadi Rum: The Valley of the Moon</h3>
+        <img src="images/Jordan/2.jpg"
+            alt="Massive sandstone mountains rising from the copper-red sands of Wadi Rum under a vast sky">
+        <p data-i18n="sec2_p">Wadi Rum is a landscape of surreal, almost supernatural beauty, where massive monolithic
+            rocks rise like prehistoric giants from the copper-colored sands. Often called the "Valley of the Moon," it
+            has served as the rugged backdrop for countless films, including Lawrence of Arabia and The Martian. The
+            silence here is profound, broken only by the occasional whisper of the wind across the dunes. Experiencing a
+            sunset over these ancient formations, followed by a night under a canopy of infinite stars in a Bedouin
+            camp, is a soul-stirring experience. The local Bedouin people, who have navigated these sands for
+            generations, offer visitors a glimpse into their culture through traditional tea, music, and stories shared
+            around a desert fire.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec3_h">3. The Dead Sea: Earth's Lowest Sanctuary</h3>
+        <img src="images/Jordan/3.jpg"
+            alt="The crystalline salt formations on the shore of the turquoise Dead Sea with hills in the background">
+        <p data-i18n="sec3_p">At approximately 430 meters below sea level, the Dead Sea is the lowest point on the
+            surface of the Earth and a natural spa of unparalleled potency. Its hypersaline waters, nearly ten times
+            saltier than the ocean, allow for effortless floating, creating a unique sensation of weightlessness. Beyond
+            the novelty of floating, the Dead Sea’s mineral-rich muds are globally renowned for their therapeutic
+            properties, treating skin conditions and promoting deep relaxation. Surrounded by the stark, beautiful
+            mountains of Moab on one side and the hills of Jerusalem on the other, the landscape is one of intense light
+            and profound stillness. Many luxury resorts line the shore, offering a sanctuary for those seeking physical
+            rejuvenation and mental peace in an environment that feels disconnected from the modern world.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec4_h">4. Amman Citadel: Ancient Echoes Over a Modern Capital</h3>
+        <img src="images/Jordan/4.jpg"
+            alt="The ruins of the Temple of Hercules standing tall on the Amman Citadel overlooking the city">
+        <p data-i18n="sec4_p">Perched on the highest hill in Amman, the Citadel (Jabal al-Qal'a) is a complex historical
+            site that reveals layers of occupation from the Neolithic to the Umayyad periods. The most striking monument
+            is the Temple of Hercules, whose massive columns frame the sprawling white-stone city below. Nearby, the
+            Umayyad Palace complex highlights the artistic transition of the early Islamic era with its beautiful domed
+            audience hall. Walking through these ruins, visitors can see the evolution of Amman from the ancient
+            Rabbath-Ammon to the Roman Philadelphia. Below the Citadel lies the perfectly preserved Roman Theatre, which
+            once seated 6,000 people and still hosts cultural events today, serving as a reminder that the heart of
+            Jordan’s capital has always been a center for community and culture.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec5_h">5. Jerash: The Pompeii of the East</h3>
+        <img src="images/Jordan/5.jpg"
+            alt="The grand Oval Plaza and the colonnaded streets of the ancient Roman city of Jerash">
+        <p data-i18n="sec5_p">Jerash is one of the best-preserved Roman provincial cities in the world, offering a vivid
+            window into what life was like under the Empire’s peak. Known as the "Pompeii of the East," the city
+            features grand colonnaded streets, theaters, hilltop temples, and a unique, sprawling Oval Plaza. The level
+            of preservation is staggering; one can still see the ruts made by chariot wheels in the stone paving of the
+            Cardo Maximus. Each year, the city comes alive with the Jerash Festival, featuring traditional music and
+            theater, bridging the gap between ancient stone and modern culture. Entering through the massive Hadrian’s
+            Arch, visitors are transported back to a time of grand architecture and public spectacle, making it an
+            essential stop for any history enthusiast.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec6_h">6. Aqaba: The Kingdom’s Maritime Gateway</h3>
+        <img src="images/Jordan/6.jpg"
+            alt="The blue waters of the Gulf of Aqaba with resort boats and mountains on the horizon">
+        <p data-i18n="sec6_p">Aqaba, Jordan’s only coastal city, provides a refreshing contrast to the arid landscapes
+            of the north. Situated on the northern tip of the Red Sea, its crystal-clear waters and vibrant coral reefs
+            make it a haven for scuba diving and snorkeling. The city has a relaxed, port-side vibe where luxury resorts
+            meet local fish markets. Beyond the water, Aqaba has deep historical roots, having served as a strategic
+            port for thousands of years. Visitors can explore the Aqaba Fort, which played a key role during the Great
+            Arab Revolt, or simply enjoy the sea breeze while dining on fresh seafood along the Corniche. With
+            year-round sunshine and a backdrop of rugged desert mountains, Aqaba is the perfect place to unwind after
+            exploring the country's inland wonders.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec7_h">7. Mount Nebo & Madaba: A Spiritual Mosaic</h3>
+        <img src="images/Jordan/7.jpg"
+            alt="The Brazen Serpent monument at Mount Nebo with a panoramic view of the Promised Land">
+        <p data-i18n="sec7_p">Mount Nebo is a site of profound religious and historical importance, recognized as the
+            place where Moses was granted a view of the Promised Land. On a clear day, the panoramic vista stretches
+            across the Jordan Valley to the Dead Sea, Jericho, and even Bethlehem. The modern church on the summit
+            houses exquisite 6th-century mosaics that reflect the region's rich Byzantine heritage. A short drive away
+            is the "City of Mosaics," Madaba, home to the famous 6th-century Mosaic Map of the Holy Land. These
+            intricate artworks, made of millions of tiny colored stones, provide a historical record of the ancient
+            world. Together, these sites offer a journey into the spiritual heart of the Levant, where geography and
+            faith have been intertwined for thousands of years.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec8_h">8. Dana Biosphere: Jordan’s Natural Hidden Gem</h3>
+        <img src="images/Jordan/8.jpg"
+            alt="The rugged cliffs and valleys of the Dana Biosphere Reserve with the ancient Dana village visible">
+        <p data-i18n="sec8_p">For nature lovers and hikers, the Dana Biosphere Reserve is Jordan’s best-kept secret.
+            This sprawling reserve encompasses four different bio-geographical zones, ranging from the high sandstone
+            cliffs of the mountain plateau to the low-lying desert of Wadi Araba. It is a haven for biodiversity, home
+            to rare wildlife like the Syrian serin and the Nubian ibex. The ancient village of Dana, perched on a
+            cliff’s edge, offers a window into traditional stone architecture and sustainable living. Visitors can
+            embark on various trekking trails, from gentle walks through terraced gardens to challenging climbs through
+            narrow canyons. Dana is a place of raw natural beauty that prioritizes eco-tourism, allowing travelers to
+            connect with the landscape in a quiet, sustainable, and deeply meaningful way.</p>
+    </div>
+
+    <p class="conclusion" data-i18n="conclusion"><strong>The Eternal Welcome of Jordan:</strong> Jordan is a country
+        that greets you with "Ahlan wa Sahlan" (Welcome) at every turn. Its combination of world-class archaeological
+        sites and stunning natural wonders creates a journey of discovery that is both exciting and deeply moving.
+        Experience the timeless heart of the Levant for yourself. Welcome to Jordan!</p>
+
+    <script>
+        const translations = {
+            en: {
+                site_title: "60 Trips | Your Gateway to Global Luxury and Exclusive Travels", logo: "60 Trips", nav_home: "Home", nav_dest: "Destinations", nav_resorts: "Traveler Activities", nav_exp: "Travel Tips", nav_blog: "Blog", nav_about: "About Us", nav_services: "Services", nav_experiences: "Experiences", footer_explore: "Explore", news_h2: "Join the Elite", news_p: "Exclusive offers directly to your inbox.", news_placeholder: "Your Email", news_btn: "Subscribe Now", footer_about: "Welcome to 60trips.com, your all-in-one global hub for smarter travel. We are a premier travel affiliate platform dedicated to simplifying the way the world travels. By partnering with leading international airlines, world-class hotel chains, and top-tier car rental agencies, we provide a seamless experience to plan your entire trip in one place. Our mission is to empower global travelers with transparency and the best deals, ensuring every journey is as affordable as it is unforgettable.", footer_links_h4: "Quick Links", footer_contact_h4: "Contact", footer_addr: "Zarqa, Jordan", footer_copy: "&copy; 2026 60 Trips. All rights reserved.", nav_contact: "Contact", footer_privacy: "Privacy Policy", footer_terms: "Terms of Service", app_get_it: "GET IT ON", app_google_play: "Google Play", nav_cars: "Premium Cars", nav_large_cars: "SUV / 4WD",
+                intro: "Jordan is a kingdom of time-honored hospitality and breathtaking desert landscapes. Nestled at the crossroads of ancient empires, it is a land where the rose-red facades of Petra emerge from rock walls and the martian-like stillness of Wadi Rum offers a silence that is almost spiritual. From the buoyancy of the Dead Sea to the Roman echoes of Amman, Jordan is a destination that balances adventure with deep cultural connection. This guide invites you to explore the diversity of the Hashemite Kingdom.",
+                sec1_h: "1. Petra: The Rose-Red Majesty",
+                sec1_p: "Entering Petra through the Siq, a narrow canyon of towering rock walls, is one of the most cinematic and emotionally charged experiences in travel. As the path twists and turns, the Treasury (Al-Khazneh) suddenly emerges from the shadows, its ornate facade carved directly into the pink sandstone more than two thousand years ago. This Nabataean city, once a thriving hub of the incense and spice trade, is a masterpiece of art and ancient civil engineering. Hidden from the Western world for centuries until its rediscovery in 1812, Petra remains a powerful symbol of human ingenuity. Visitors can wander through the Street of Facades, climb to the High Place of Sacrifice, or marvel at the colossal Monastery, each step revealing the deep spiritual and commercial history of the Nabataean people.",
+                sec2_h: "2. Wadi Rum: The Valley of the Moon",
+                sec2_p: "Wadi Rum is a landscape of surreal, almost supernatural beauty, where massive monolithic rocks rise like prehistoric giants from the copper-colored sands. Often called the \"Valley of the Moon,\" it has served as the rugged backdrop for countless films, including Lawrence of Arabia and The Martian. The silence here is profound, broken only by the occasional whisper of the wind across the dunes. Experiencing a sunset over these ancient formations, followed by a night under a canopy of infinite stars in a Bedouin camp, is a soul-stirring experience. The local Bedouin people, who have navigated these sands for generations, offer visitors a glimpse into their culture through traditional tea, music, and stories shared around a desert fire.",
+                sec3_h: "3. The Dead Sea: Earth's Lowest Sanctuary",
+                sec3_p: "At approximately 430 meters below sea level, the Dead Sea is the lowest point on the surface of the Earth and a natural spa of unparalleled potency. Its hypersaline waters, nearly ten times saltier than the ocean, allow for effortless floating, creating a unique sensation of weightlessness. Beyond the novelty of floating, the Dead Sea’s mineral-rich muds are globally renowned for their therapeutic properties, treating skin conditions and promoting deep relaxation. Surrounded by the stark, beautiful mountains of Moab on one side and the hills of Jerusalem on the other, the landscape is one of intense light and profound stillness. Many luxury resorts line the shore, offering a sanctuary for those seeking physical rejuvenation and mental peace in an environment that feels disconnected from the modern world.",
+                sec4_h: "4. Amman Citadel: Ancient Echoes Over a Modern Capital",
+                sec4_p: "Perched on the highest hill in Amman, the Citadel (Jabal al-Qal'a) is a complex historical site that reveals layers of occupation from the Neolithic to the Umayyad periods. The most striking monument is the Temple of Hercules, whose massive columns frame the sprawling white-stone city below. Nearby, the Umayyad Palace complex highlights the artistic transition of the early Islamic era with its beautiful domed audience hall. Walking through these ruins, visitors can see the evolution of Amman from the ancient Rabbath-Ammon to the Roman Philadelphia. Below the Citadel lies the perfectly preserved Roman Theatre, which once seated 6,000 people and still hosts cultural events today, serving as a reminder that the heart of Jordan’s capital has always been a center for community and culture.",
+                sec5_h: "5. Jerash: The Pompeii of the East",
+                sec5_p: "Jerash is one of the best-preserved Roman provincial cities in the world, offering a vivid window into what life was like under the Empire’s peak. Known as the \"Pompeii of the East,\" the city features grand colonnaded streets, theaters, hilltop temples, and a unique, sprawling Oval Plaza. The level of preservation is staggering; one can still see the ruts made by chariot wheels in the stone paving of the Cardo Maximus. Each year, the city comes alive with the Jerash Festival, featuring traditional music and theater, bridging the gap between ancient stone and modern culture. Entering through the massive Hadrian’s Arch, visitors are transported back to a time of grand architecture and public spectacle, making it an essential stop for any history enthusiast.",
+                sec6_h: "6. Aqaba: The Kingdom’s Maritime Gateway",
+                sec6_p: "Aqaba, Jordan’s only coastal city, provides a refreshing contrast to the arid landscapes of the north. Situated on the northern tip of the Red Sea, its crystal-clear waters and vibrant coral reefs make it a haven for scuba diving and snorkeling. The city has a relaxed, port-side vibe where luxury resorts meet local fish markets. Beyond the water, Aqaba has deep historical roots, having served as a strategic port for thousands of years. Visitors can explore the Aqaba Fort, which played a key role during the Great Arab Revolt, or simply enjoy the sea breeze while dining on fresh seafood along the Corniche. With year-round sunshine and a backdrop of rugged desert mountains, Aqaba is the perfect place to unwind after exploring the country's inland wonders.",
+                sec7_h: "7. Mount Nebo & Madaba: A Spiritual Mosaic",
+                sec7_p: "Mount Nebo is a site of profound religious and historical importance, recognized as the place where Moses was granted a view of the Promised Land. On a clear day, the panoramic vista stretches across the Jordan Valley to the Dead Sea, Jericho, and even Bethlehem. The modern church on the summit houses exquisite 6th-century mosaics that reflect the region's rich Byzantine heritage. A short drive away is the \"City of Mosaics,\" Madaba, home to the famous 6th-century Mosaic Map of the Holy Land. These intricate artworks, made of millions of tiny colored stones, provide a historical record of the ancient world. Together, these sites offer a journey into the spiritual heart of the Levant, where geography and faith have been intertwined for thousands of years.",
+                sec8_h: "8. Dana Biosphere: Jordan’s Natural Hidden Gem",
+                sec8_p: "For nature lovers and hikers, the Dana Biosphere Reserve is Jordan’s best-kept secret. This sprawling reserve encompasses four different bio-geographical zones, ranging from the high sandstone cliffs of the mountain plateau to the low-lying desert of Wadi Araba. It is a haven for biodiversity, home to rare wildlife like the Syrian serin and the Nubian ibex. The ancient village of Dana, perched on a cliff’s edge, offers a window into traditional stone architecture and sustainable living. Visitors can embark on various trekking trails, from gentle walks through terraced gardens to challenging climbs through narrow canyons. Dana is a place of raw natural beauty that prioritizes eco-tourism, allowing travelers to connect with the landscape in a quiet, sustainable, and deeply meaningful way.",
+                trust_tag: "The Signature of Excellence", trust_h2: "Why Choose Luxe Voyages?", trust_1_h4: "Curated Excellence", trust_1_p: "Every destination and accommodation is hand-selected to meet the highest standards of luxury.", trust_2_h4: "Direct Booking", trust_2_p: "Book directly with verified premium providers to ensure the best rates and exclusive perks.", trust_3_h4: "Global Legacy", trust_3_p: "Our worldwide presence ensures you have premium support wherever your journey takes you.", testi_tag: "Guest Experiences", testi_h2: "From Our Global Travelers", testi_quote: "\"Luxe Voyages didn't just book a trip; they crafted an unforgettable experience. Every detail was handled with unparalleled professionalism.\"", testi_author: "Julian Montgomery", testi_origin: "Verified Global Traveler", 
+                conclusion: "<strong>The Eternal Welcome of Jordan:</strong> Jordan is a country that greets you with \"Ahlan wa Sahlan\" (Welcome) at every turn. Its combination of world-class archaeological sites and stunning natural wonders creates a journey of discovery that is both exciting and deeply moving. Experience the timeless heart of the Levant for yourself. Welcome to Jordan!"
+            },
+            ar: {
+                site_title: "60 تريبس | بوابتك إلى الفخامة العالمية والرحلات الحصرية", logo: "60 Trips", nav_home: "الرئيسية", nav_dest: "الوجهات", nav_resorts: "أنشطة المسافر", nav_exp: "نصائح السفر", nav_blog: "المدونة", nav_about: "من نحن", nav_services: "الخدمات", nav_experiences: "تجاربنا", footer_explore: "استكشف", news_h2: "انضم إلى عالم الصفوة", news_p: "اشترك لتصلك أحدث العروض الحصرية.", news_placeholder: "بريدك الإلكتروني", news_btn: "اشترك الآن", footer_about: "مرحباً بكم في 60trips.com، مركزكم العالمي الشامل لرحلات أكثر ذكاءً. نحن منصة رائدة في مجال خدمات السفر مكرسة لتبسيط الطريقة التي يسافر بها العالم. من خلال شراكتنا مع شركات الطيران الدولية الرائدة، وسلاسل الفنادق العالمية، ووكالات تأجير السيارات المتميزة، نقدم تجربة سلسة لتخطيط رحلتك بالكامل في مكان واحد. مهمتنا هي تمكين المسافرين العالميين من خلال الشفافية وأفضل العروض، لضمان أن تكون كل رحلة ميسورة التكلفة بقدر ما هي لا تُنسى.", footer_links_h4: "روابط سريعة", footer_contact_h4: "اتصل بنا", footer_addr: "Zarqa, Jordan", footer_copy: "&copy; 2026 60 Trips. جميع الحقوق محفوظة.", nav_contact: "اتصل بنا", footer_privacy: "سياسة الخصوصية", footer_terms: "شروط الخدمة", app_get_it: "احصل عليه من", app_google_play: "جوجل بلاي", nav_cars: "تأجير السيارات", nav_large_cars: "سيارات الدفع الرباعي",
+                intro: "الأردن مملكة الضيافة المتأصلة والمناظر الطبيعية الصحراوية الخلابة. تقع عند ملتقى طرق الإمبراطوريات القديمة، وهي أرض تبرز فيها واجهات البتراء الوردية من الجدران الصخرية ويوفر فيها سكون وادي رم الشبيه بالمريخ صمتاً يكاد يكون روحانياً. من طفو البحر الميت إلى الأصداء الرومانية في عمان، الأردن وجهة توازن بين المغامرة والاتصال الثقافي العميق. يدعوكم هذا الدليل لاستكشاف تنوع المملكة الهاشمية.",
+                sec1_h: "1. البتراء: العظمة الوردية",
+                sec1_p: "دخول البتراء عبر السيق، وهو خانق ضيق من الجدران الصخرية الشاهقة، هو أحد أكثر التجارب السينمائية والمؤثرة في عالم السفر. وبينما يلتوي الطريق وينحني، يظهر الخزنة فجأة من بين الظلال، واجهته المزخرفة منحوتة مباشرة في الحجر الرملي الوردي منذ أكثر من ألفي عام. هذه المدينة النبطية، التي كانت يوماً مركزاً مزدهراً لتجارة البخور والتوابل، هي تحفة فنية وهندسية قديمة. ظلت البتراء مخفية عن العالم الغربي لقرون حتى اكتشافها في عام 1812، ولا تزال رمزاً قوياً للبراعة البشرية. يمكن للزوار التجول في شارع الواجهات، أو الصعود إلى المذبح، أو الانبهار بالدير الضخم، حيث تكشف كل خطوة عن التاريخ الروحي والتجاري العميق للأنباط.",
+                sec2_h: "2. وادي رم: وادي القمر",
+                sec2_p: "وادي رم هو مشهد من الجمال السريالي الذي يكاد يكون خارقاً للطبيعة، حيث ترتفع الصخور الضخمة مثل عمالقة ما قبل التاريخ من الرمال النحاسية اللون. يُطلق عليه غالباً 'وادي القمر'، وقد كان خلفية وعرة للعديد من الأفلام العالمية. الصمت هنا عميق، لا يقطعه سوى همس الريح العابر فوق الكثبان الرملية. تجربة غروب الشمس فوق هذه التكوينات القديمة، وتليها ليلة تحت مظلة من النجوم اللامتناهية في مخيم بدوي، هي تجربة تلامس الروح. يقدم البدو المحليون، الذين سكنوا هذه الرمال لأجيال، للزوار لمحة عن ثقافتهم من خلال الشاي التقليدي والموسيقى والقصص المشتركة حول نار المخيم.",
+                sec3_h: "3. البحر الميت: ملاذ الأرض الأكثر انخفاضاً",
+                sec3_p: "على ارتفاع 430 متراً تقريباً تحت مستوى سطح البحر، يعد البحر الميت أخفض نقطة على وجه الأرض ومنتجعاً طبيعياً ذا قوة علاجية فريدة. مياهه شديدة الملوحة، التي تزيد ملوحتها عن المحيط بعشرة أضعاف، تسمح بالطفو دون عناء، مما يخلق شعوراً فريداً بانعدام الوزن. وبالإضافة للطفو، يشتهر طين البحر الميت الغني بالمعادن عالمياً بخصائصه العلاجية للأمراض الجلدية وتعزيز الاسترخاء العميق. محاطاً بجبال موآب الشاهقة من جهة وتلال القدس من الجهة الأخرى، يعد المشهد هناك مزيجاً من الضوء الكثيف والسكون العميق. تصطف العديد من المنتجعات الفاخرة على الشاطئ، لتكون ملاذاً للباحثين عن تجديد النشاط البدني والسكينة العقلية بعيداً عن صخب العالم الحديث.",
+                sec4_h: "4. جبل القلعة بـ عمان: أصداء الماضي فوق عاصمة حديثة",
+                sec4_p: "يقع جبل القلعة على أعلى تلة في عمان، وهو موقع تاريخي معقد يكشف عن طبقات من الاستيطان البشري من العصر الحجري الحديث وحتى العصر الأموي. المعلم الأكثر بروزاً هو معبد هرقل، الذي تؤطر أعمدته الضخمة المدينة البيضاء المترامية الأطراف بالأسفل. وبالقرب منه، يسلط مجمع القصر الأموي الضوء على التحول الفني في العصر الإسلامي المبكر بصالته المقببة الجميلة. وبالمشي في هذه الأطلال، يمكن للزوار رؤية تطور عمان من 'ربة عمون' القديمة إلى 'فيلادلفيا' الرومانية. وأسفل القلعة يقع المدرج الروماني المحفوظ تماماً، والذي كان يتسع لـ 6000 شخص ولا يزال يستضيف الفعاليات الثقافية حتى اليوم، مذكراً بأن قلب العاصمة الأردنية كان دائماً مركزاً للمجتمع والثقافة.",
+                sec5_h: "5. جرش: بومبي الشرق",
+                sec5_p: "جرش هي واحدة من أفضل المدن الرومانية المحفوظة في العالم، وتوفر نافذة حية لما كانت عليه الحياة في ذروة الإمبراطورية. تُعرف بـ 'بومبي الشرق'، وتتميز بشوارعها ذات الأعمدة، والمسارح، والمعابد الجبلية، وساحة البيضاوي الفريدة الشاسعة. مستوى الحفظ فيها مذهل؛ حيث يمكن للمرء لا يزال رؤية آثار عجلات العربات في الرصف الحجري لشارع الكاردو الرئيسي. في كل عام، تنبض المدينة بالحياة مع مهرجان جرش، الذي يضم الموسيقى والمسرح التقليدي، مما يجسد جسراً بين الحجر القديم والثقافة المعمورة. بدخول الزوار عبر قوس هادريان العظيم، ينتقلون إلى زمن الهندسة المعمارية الضخمة والمشاهد العامة، مما يجعلها محطة أساسية لأي محب للتاريخ.",
+                sec6_h: "6. العقبة: بوابة المملكة البحرية",
+                sec6_p: "توفر العقبة، مدينة الأردن الساحلية الوحيدة، تبايناً منعشاً مع المناظر الطبيعية القاحلة في الشمال. تقع على الطرف الشمالي للبحر الأحمر، ومياهه الكريستالية الصافية وشعابها المرجانية النابضة بالحياة تجعل منها ملاذاً للغوص والسنوركلينج. تتمتع المدينة بأجواء ساحلية مريحة تلتقي فيها المنتجعات الفاخرة بأسواق السمك المحلية. بعيداً عن الماء، للعقبة جذور تاريخية عميقة، حيث عملت كميناء استراتيجي لآلاف السنين. يمكن للزوار استكشاف قلعة العقبة، التي لعبت دوراً رئيسياً خلال الثورة العربية الكبرى، أو ببساطة الاستمتاع بنسيم البحر أثناء تناول المأكولات البحرية الطازجة على الكورنيش. مع ضوء الشمس طوال العام وخلفية جبال الصحراء الوعرة، تعد العقبة المكان المثالي للاسترخاء بعد استكشاف عجائب البلاد الداخلية.",
+                sec7_h: "7. جبل نيبو ومادبا: فسيفساء الروح",
+                sec7_p: "جبل نيبو موقع ذو أهمية دينية وتاريخية عميقة، يُعرف بأنه المكان الذي رأى منه موسى أرض الميعاد. في الأيام الصافية، يمتد المنظر البانورامي عبر وادي الأردن إلى البحر الميت وأريحا وحتى بيت لحم. تضم الكنيسة الحديثة على القمة لوحات فسيفسائية رائعة من القرن السادس تعكس التراث البيزنطي الغني للمنطقة. وعلى بعد مسافة قصيرة بالسيارة تقع 'مدينة الفسيفساء'، مادبا، موطن خريطة الفسيفساء الشهيرة للأراضي المقدسة من القرن السادس. توفر هذه الأعمال الفنية المعقدة، المكونة من ملايين الأحجار الملونة الصغيرة، توفر سجلاً تاريخياً للعالم القديم. وتوفر هذه المواقع معاً رحلة إلى القلب الروحي للمشرق، حيث تشابكت الجغرافيا والإيمان لآلاف السنين.",
+                sec8_h: "8. محمية ضانا: جوهرة الطبيعة الخفية في الأردن",
+                sec8_p: "لمحبي الطبيعة والمشي لمسافات طويلة، تعد محمية ضانا للمحيط الحيوي سر الأردن الدفين. تضم هذه المحمية المترامية الأطراف أربع مناطق جغرافية حيوية مختلفة، تتراوح من المنحدرات الحجرية الرملية العالية في الهضبة الجبلية إلى وادي عربة المنخفض. وهي ملاذ للتنوع البيولوجي، وموطن للحياة البرية النادرة مثل النعار السوري والوعل النوبي. توفر قرية ضانا القديمة، الجاثمة على حافة جرف، نافذة على العمارة الحجرية التقليدية والحياة المستدامة. يمكن للزوار الانطلاق في مسارات مشي متنوعة، من النزهات اللطيفة عبر الحدائق المدرجة إلى التسلق الصعب عبر الوديان الضيقة. ضانا هي مكان للجمال الطبيعي الخام الذي يعطي الأولوية للسياحة البيئية، مما يسمح للمسافرين بالتواصل مع الأرض بطريقة هادئة ومستدامة وعميقة.",
+                conclusion: "<strong>ترحيب الأردن الأبدي:</strong> الأردن بلد يحييك بـ \"أهلاً وسهلاً\" في كل خطوة. إن مزيجه من المواقع الأثرية العالمية والعجائب الطبيعية الخلابة يخلق رحلة استكشاف ممتعة ومؤثرة في آن واحد. اختبر طعم التاريخ والجمال في قلب المشرق. أهلاً بكم في الأردن!"
+            }
+        };
+
+        function translate(lang) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+            document.documentElement.lang = lang;
+            document.documentElement.dir = 'ltr';
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('selectedLang') || 'en';
+            translate(savedLang);
+        });
+    </script>
+
+    <!-- Why Choose Luxe Voyages -->
+    
+    <section class="trust-section">
+        <div class="container">
+            <span class="section-tag" data-i18n="trust_tag">The Signature of Excellence</span>
+            <h2 data-i18n="trust_h2">Why Choose Luxe Voyages?</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-crown"></i>
+                    <h4 data-i18n="trust_1_h4">Curated Excellence</h4>
+                    <p data-i18n="trust_1_p">Every destination and accommodation is hand-selected to meet the
+                        highest standards of luxury.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4 data-i18n="trust_2_h4">Direct Booking</h4>
+                    <p data-i18n="trust_2_p">Book directly with verified premium providers to ensure the best rates
+                        and exclusive perks.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h4 data-i18n="trust_3_h4">Global Legacy</h4>
+                    <p data-i18n="trust_3_p">Our worldwide presence ensures you have premium support wherever your
+                        journey takes you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <span class="section-tag" data-i18n="testi_tag">Guest Experiences</span>
+            <h2 data-i18n="testi_h2">From Our Global Travelers</h2>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <p data-i18n="testi_quote">
+                    "Luxe Voyages didn't just book a trip; they crafted an unforgettable experience. Every detail
+                    was handled with unparalleled professionalism."
+                </p>
+                <div style="color: var(--primary-gold); font-weight: 700; font-size: 1.1rem;" data-i18n="testi_author">
+                    Julian Montgomery</div>
+                <div style="font-size: 0.9rem; color: #777; margin-top: 5px;" data-i18n="testi_origin">Verified
+                    Global
+                    Traveler</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="shared-footer-container"></div>
+    <script src="../assets/js/header-component.js?v=1.6"></script>
+    <script src="../assets/js/footer-component.js?t=202602095"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
