@@ -1,0 +1,114 @@
+﻿[
+    {
+        "id": "hawaii",
+        "title": "Hawaii: An Island Paradise Unveiled",
+        "country": "United States",
+        "image": "articles/content/images/hawaii/hero.png",
+        "excerpt": "Discover the volcanic wonders and emerald coasts of the Aloha State, from Waikiki to the Na Pali Coast.",
+        "date": "2026-01-24"
+    },
+    {
+        "id": "maldives",
+        "title": "Maldives: The Ultimate Island Sanctuary",
+        "country": "Maldives",
+        "image": "articles/content/images/maldives/hero.png",
+        "excerpt": "Experience the last paradise on Earth, featuring overwater villas and the mesmerizing Sea of Stars.",
+        "date": "2026-01-24"
+    },
+    {
+        "id": "usa",
+        "title": "Top 10 Must-Visit Destinations in the USA",
+        "country": "United States",
+        "image": "articles/content/images/usa/1_statue_of_liberty.jpg",
+        "excerpt": "From the neon lights of New York to the natural wonder of the Grand Canyon, explore the diversity of America.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "uk",
+        "title": "Royal Charm: 10 Best Places in the UK",
+        "country": "United Kingdom",
+        "image": "assets/images/destinations/uk.jpg",
+        "excerpt": "Discover historic castles, the bustling streets of London, and the serene Scottish Highlands.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "japan",
+        "title": "Japan: A Journey Through Tradition and Future",
+        "country": "Japan",
+        "image": "articles/content/images/japan/1_tokyo_tower.jpg",
+        "excerpt": "Experience the harmony of ancient temples and futuristic cities in the Land of the Rising Sun.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "newzealand",
+        "title": "New Zealand: A Journey Through Middle-earth",
+        "country": "New Zealand",
+        "image": "articles/content/images/newzealand/1_auckland.png",
+        "excerpt": "Discover the breathtaking landscapes of Aotearoa, from the Shire of Hobbiton to the majestic fjords of Milford Sound.",
+        "date": "2026-01-19"
+    },
+    {
+        "id": "france",
+        "title": "France Beyond Paris: 10 Iconic Destinations",
+        "country": "France",
+        "image": "articles/content/images/france/1_eiffel_tower.jpg",
+        "excerpt": "Indulge in the romance, art, and culinary excellence of France\u0027s most beautiful regions.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "germany",
+        "title": "Germany\u0027s Fairy Tale Castles and Modern Cities",
+        "country": "Germany",
+        "image": "articles/content/images/germany/7_neuschwanstein.jpg",
+        "excerpt": "Explore the history of Berlin, the Oktoberfest in Munich, and the stunning Black Forest.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "switzerland",
+        "title": "Alpine Wonders: 10 Breathtaking Swiss Spots",
+        "country": "Switzerland",
+        "image": "assets/images/destinations/switzerland.jpg",
+        "excerpt": "Immerse yourself in the tranquility of the Alps, pristine lakes, and charming villages.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "turkey",
+        "title": "Turkey: A Journey Between Continents",
+        "country": "Turkey",
+        "image": "articles/content/images/turkey/1_hagia_sophia.jpg",
+        "excerpt": "From the minarets of Istanbul to the fairy chimneys of Cappadocia, discover the magic of Turkey.",
+        "date": "2026-01-19"
+    },
+    {
+        "id": "canada",
+        "title": "The Great White North: Canada\u0027s Top 10",
+        "country": "Canada",
+        "image": "assets/images/destinations/canada.jpg",
+        "excerpt": "From the Rockies of Banff to the urban vibe of Toronto, experience nature\u0027s grandeur.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "spain",
+        "title": "Spain: Passion and Fiesta",
+        "country": "Spain",
+        "image": "articles/content/images/spain/1_sagrada_familia.jpg",
+        "excerpt": "Experience the vibrant culture, stunning architecture, and world-class cuisine of Spain. From Barcelona to Granada.",
+        "date": "September 15, 2026"
+    },
+    {
+        "id": "thailand",
+        "title": "Tropical Paradise: Top 10 Places in Thailand",
+        "country": "Thailand",
+        "image": "assets/images/destinations/thailand.jpg",
+        "excerpt": "Relax on golden beaches, visit ornate temples, and taste the world-famous street food.",
+        "date": "2026-01-18"
+    },
+    {
+        "id": "vietnam",
+        "title": "Vietnam: A Land of Timeless Charm",
+        "country": "Vietnam",
+        "image": "assets/images/destinations/vietnam.jpg",
+        "excerpt": "Cruise Ha Long Bay and explore the bustling streets of Hanoi and Ho Chi Minh City.",
+        "date": "2026-01-18"
+    }
+]
