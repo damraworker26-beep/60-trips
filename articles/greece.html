@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greece: Aegean Dreams | 60 Trips Luxury Guide</title>
+    <meta name="description"
+        content="Discover the cradle of civilization. Greece offers ancient history, stunning island escapes, and Mediterranean tranquility.">
+    <meta name="keywords"
+        content="Greece travel, Athens Acropolis, Santorini sunsets, Mykonos beaches, Greek islands, Mediterranean luxury">
+    <meta property="og:type" content="article">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-gold: #C49A27;
+            --dark-navy: #0a0a0a;
+            --medium-blue: #111111;
+            --solid-bg: #050505;
+            --solid-border: rgba(255, 255, 255, 0.1);
+            --text-white: #ffffff;
+            --text-dim: rgba(255, 255, 255, 0.7);
+            --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: calc(100% - 50px);
+        }
+
+        .container-fluid {
+            width: 98%;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            font-family: 'Outfit', 'Noto Sans Arabic', sans-serif;
+            padding-top: 140px;
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .article-section img {
+            display: block;
+            width: calc(100% - 50px);
+            max-width: 750px;
+            height: 500px;
+            margin: 30px auto;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        @media (max-width: 1024px) {
+            .article-section img {
+                height: 350px;
+            }
+        }
+
+        .intro {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #1a1a1a;
+            text-align: center;
+        }
+
+        .article-section {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: #1a1a1a;
+            text-align: center;
+        }
+
+        h3 {
+            color: var(--primary-gold);
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            color: #C49A27;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 1024px) {
+            h3 {
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+
+            h4 {
+                margin-top: 10px;
+                margin-bottom: 6px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h3 {
+                margin-top: 12px;
+                margin-bottom: 8px;
+            }
+
+            h4 {
+                margin-top: 8px;
+                margin-bottom: 5px;
+            }
+        }
+
+        .conclusion {
+            max-width: 800px;
+            margin: 40px auto;
+            padding-bottom: 60px;
+            color: #1a1a1a;
+        }
+
+        
+
+        /* --- Why Choose & Guest Experiences - Balanced Luxury --- */
+        .trust-section {
+            padding: 0 0 15px;
+            margin-top: -20px;
+            background: var(--dark-navy);
+            text-align: center;
+        }
+
+        .trust-section h2 {
+            font-size: 2.2rem !important;
+            margin-bottom: 8px;
+            margin-top: 0;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .trust-section .section-tag {
+            margin-bottom: 2px;
+            padding-top: 0 !important;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .trust-item i {
+            font-size: 2rem !important;
+            color: var(--primary-gold);
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .trust-item h4 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .trust-item p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+
+        .testimonials {
+            padding: 20px 0 25px;
+            background: var(--dark-navy);
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2.2rem !important;
+            margin-bottom: 12px;
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .testimonials .section-tag {
+            margin-bottom: 4px;
+            padding-top: 0 !important;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 12px;
+            padding: 25px 30px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card .fa-quote-left {
+            color: var(--primary-gold);
+            font-size: 1.5rem !important;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .testimonial-card p {
+            font-size: 1.05rem !important;
+            line-height: 1.7;
+            color: var(--text-dim);
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .testimonial-card i.fa-quote-left {
+            color: var(--primary-gold);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .section-tag {
+            color: var(--primary-gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: block;
+            margin: 0;
+            padding-top: 0;
+        }
+    
+        @media (max-width: 1024px) {
+            .trust-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="shared-header-container"></div>
+
+    <p class="intro" data-i18n="intro">Greece is where history and myth converge under an endless sapphire sky. From the
+        colossal marble ruins of Athens to the whitewashed dreams of the Cyclades, this is a land that taught the world
+        the meaning of harmony and beauty. Whether you seek the intellectual depth of ancient philosophy or the simple
+        perfection of a Mediterranean sunset, Greece offers a timeless sanctuary for the wandering soul.</p>
+
+    <div class="article-section">
+        <h3 data-i18n="sec1_h">1. The Acropolis: Athens' Sacred Rock</h3>
+        <img src="https://images.unsplash.com/photo-1555992336-fb0d29498b13?auto=format&fit=crop&w=1200&q=80"
+            alt="The majestic Parthenon temple on the Acropolis hill in Athens under a clear blue sky" loading="lazy">
+        <p data-i18n="sec1_p">Crowning the city of Athens, the Acropolis and its most famous temple, the Parthenon,
+            represent the absolute pinnacle of classical Greek architecture and the birthplace of Western democracy.
+            Built in the 5th century BC during the Golden Age of Pericles, these sacred marble structures were dedicated
+            to the goddess Athena, the protector of the city. Walking up the marble steps of the Propylaea feels like a
+            journey back to the height of ancient civilization, where every column and frieze tells a story of gods,
+            heroes, and the dawn of philosophy. The Acropolis is not just an archaeological site; it is a profound
+            symbol of the human spirit's capacity for harmony, balance, and intellectual pursuit. From its heights, the
+            sprawl of modern Athens stretches to the sea, offering a breathtaking contrast between the eternal past and
+            the vibrant present.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec2_h">2. Santorini: The Island of Radiant Light</h3>
+        <img src="images/santorini/1.jpg"
+            alt="The iconic blue-domed churches and whitewashed houses of Oia, Santorini, overlooking the volcanic caldera and the Aegean Sea">
+        <p data-i18n="sec2_p">Santorini is perhaps the most visually arresting island in the world, a crescent-shaped
+            masterpiece forged by a massive volcanic eruption thousands of years ago. Known as 'Thira' in Greek, the
+            island is characterized by its stark white villages, such as Oia and Fira, which cling precariously to the
+            steep cliffs of the caldera. The contrast between the blinding white architecture, the deep sapphire blue of
+            the domes, and the shimmering turquoise of the Aegean Sea below is a sensory experience of pure radiance.
+            Beyond its famous sunsets, Santorini offers unique volcanic beaches with black, red, and white sands, as
+            well as the prehistoric ruins of Akrotiri, a city frozen in volcanic ash. It is a place of ethereal beauty,
+            where the light seems to glow from within the stones themselves, creating a romantic atmosphere that has
+            captivated travelers for generations.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec3_h">3. Meteora: The Monasteries in the Sky</h3>
+        <img src="https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&w=1200&q=80"
+            alt="Ancient Byzantine monasteries perched atop towering sandstone rock pillars in Meteora" loading="lazy">
+        <p data-i18n="sec3_p">In the heart of mainland Greece, the rock pillars of Meteora rise like massive stone
+            fingers toward the heavens, creating one of the most spiritually and geographically spectacular landscapes
+            on Earth. 'Meteora' literally translates to 'suspended in the air', and perched atop these seemingly
+            inaccessible sandstone cliffs are ancient Byzantine monasteries that have served as retreats for monks since
+            the 14th century. Originally accessed only by rope ladders and nets, six of these extraordinary monasteries
+            remain open to the public today. Exploring their frescoed interiors and quiet courtyards provides a profound
+            sense of peace and a glimpse into a world of monastic devotion. The view from the heights, looking down over
+            the Pindus Mountains and the Pineios River, is a reminder of the sublime intersection between raw nature and
+            human faith.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec4_h">4. Mykonos: The Cosmopolitan Gem of the Cyclades</h3>
+        <img src="https://images.unsplash.com/photo-1586902197503-e71026292412?auto=format&fit=crop&w=1200&q=80"
+            alt="The famous 16th-century windmills of Mykonos overlooking the sea at sunset" loading="lazy">
+        <p data-i18n="sec4_p">Mykonos is the ultimate cosmopolitan destination in the Mediterranean, a vibrant island
+            where traditional Cycladic charm meets world-class luxury and a legendary nightlife. Known as the 'Island of
+            the Winds', Mykonos is famous for its iconic 16th-century windmills that overlook the harbor of Chora. The
+            town itself is a labyrinth of narrow, whitewashed alleys filled with high-end boutiques, art galleries, and
+            colorful bougainvillea. Little Venice, where historic houses seem to float on the water's edge, is the
+            perfect spot to enjoy a sunset cocktail as the waves crash against the foundations. Beyond the glamour,
+            Mykonos offers stunning beaches like Psarou and Panormos, and easy access to the sacred island of Delos, the
+            mythological birthplace of Apollo and Artemis. It is an island of endless energy, where the party never
+            stops and the beauty never fades.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec5_h">5. Crete: The Cradle of Minoan Civilization</h3>
+        <img src="https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?auto=format&fit=crop&w=1200&q=80"
+            alt="The ruins of the Palace of Knossos in Crete, showing reconstructed red columns and ancient frescoes"
+            loading="lazy">
+        <p data-i18n="sec5_p">Crete, the largest of the Greek islands, is a world unto itself, a land of rugged
+            mountains, fertile valleys, and a history that stretches back to the dawn of European civilization. The
+            Palace of Knossos, located near Heraklion, is the legendary center of the Minoan civilization and the site
+            of the mythical Labyrinth of the Minotaur. Exploring its reconstructed chambers and vibrant frescoes reveals
+            a culture of incredible artistic and architectural sophistication. Beyond its ruins, Crete is a landscape of
+            diverse beauty, from the Venetian harbors of Chania and Rethymno to the turquoise lagoons of Elafonisi and
+            the dramatic Samaria Gorge. The island is also famous for its Cretan hospitality and a culinary tradition
+            that is considered one of the healthiest and most delicious in the world. Crete is a destination that
+            demands to be explored deeply, offering a rich tapestry of myth, history, and natural wonder.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec6_h">6. Zakynthos: The Turquoise Waters of Navagio</h3>
+        <img src="images/santorini/2.jpg"
+            alt="A high-angle view of Navagio Beach, also known as Shipwreck Beach, with its crystal clear turquoise waters and white limestone cliffs">
+        <p data-i18n="sec6_p">Zakynthos, also known as 'Zante', is home to one of the most photographed beaches in the
+            world: Navagio, or Shipwreck Beach. This secluded cove, accessible only by boat, is famous for its vibrant
+            turquoise waters and the rusting hull of a freight-liner that ran aground on its white sands in 1980.
+            Surrounded by towering white limestone cliffs, the beach is a spectacle of natural drama. Beyond Navagio,
+            the island of Zakynthos offers a lush interior of olive groves and vineyards, as well as the Blue Caves,
+            where the light reflects off the water to create an ethereal blue glow. The island is also an important
+            sanctuary for the endangered loggerhead sea turtle (Caretta caretta), which nests on the sandy shores of
+            Laganas Bay. Zakynthos is a place where the raw power of the Ionian Sea meets the gentle beauty of a
+            Mediterranean garden.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec7_h">7. Rhodes: A Journey into Medieval Grandeur</h3>
+        <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80"
+            alt="The medieval Street of the Knights in the Old Town of Rhodes, with its ancient stone walls and arches"
+            loading="lazy">
+        <p data-i18n="sec7_p">Rhodes, the 'Island of the Knights', offers a fascinating journey into the medieval past.
+            Its UNESCO-listed Old Town is one of the best-preserved medieval cities in Europe, enclosed by impressive
+            honey-colored walls and a deep moat. Walking down the cobblestone Street of the Knights leads to the Palace
+            of the Grand Master, a fortress of imposing towers and intricate mosaics. The island’s history is a
+            layer-cake of influences, from the ancient Acropolis of Lindos to the elegant Italian-era architecture of
+            Rhodes Town. Beyond its historic walls, Rhodes offers miles of sandy beaches, the lush Valley of the
+            Butterflies, and a vibrant local culture. It is an island where the echoes of Crusaders and Ottoman
+            governors still linger in the air, creating a rich atmosphere of historical discovery and Mediterranean
+            charm.</p>
+    </div>
+
+    <div class="article-section">
+        <h3 data-i18n="sec8_h">8. The Hidden Gems: From Hydra to Milos</h3>
+        <img src="https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=1200&q=80"
+            alt="A quiet harbor on a Greek island with traditional fishing boats and colorful waterfront houses"
+            loading="lazy">
+        <p data-i18n="sec8_p">Beyond the famous names, the Greek archipelago is home to hundreds of hidden gems, each
+            with its own unique character. Hydra, a car-free island in the Saronic Gulf, is a haven of artistic
+            inspiration and quiet elegance, where donkeys remain the primary mode of transport. Milos, the 'Island of
+            Colors', is famous for its surreal volcanic landscapes and the white lunar-like rocks of Sarakiniko beach.
+            Islands like Paros and Naxos offer a more laid-back Cycladic experience, with stunning beaches and
+            traditional mountain villages. Exploring these lesser-known islands reveals a more authentic side of Greek
+            life, where the pace is slow and the hospitality is legendary. Whether you are sailing between the secluded
+            coves of the Sporades or hiking the ancient paths of the Ionian Islands, the diversity of the Greek islands
+            ensures that there is always something new to discover under the Aegean sun.</p>
+    </div>
+
+    <p class="conclusion" data-i18n="conclusion"><strong>The Infinite Allure of Greece:</strong> Greece is a country
+        that stays with you long after the journey ends. Its combination of profound history, radiant natural beauty,
+        and a deeply-rooted passion for life creates an experience that is both life-affirming and deeply relaxing. From
+        the ancient stones of the Acropolis to the turquoise waters of the Ionian Sea, Greece offers a depth of beauty
+        that is both profound and joyful. Discover the cradle of democracy and the timeless beauty of the Aegean for
+        yourself. Welcome to Greece! Kalispera!</p>
+
+    <script>
+        const translations = {
+            en: {
+                site_title: "60 Trips | Your Gateway to Global Luxury and Exclusive Travels", logo: "60 Trips", nav_home: "Home", nav_dest: "Destinations", nav_resorts: "Traveler Activities", nav_exp: "Travel Tips", nav_blog: "Blog", nav_about: "About Us", nav_services: "Services", nav_experiences: "Experiences", footer_explore: "Explore", news_h2: "Join the Elite", news_p: "Exclusive offers directly to your inbox.", news_placeholder: "Your Email", news_btn: "Subscribe Now", footer_about: "Welcome to 60trips.com, your all-in-one global hub for smarter travel. We are a premier travel affiliate platform dedicated to simplifying the way the world travels. By partnering with leading international airlines, world-class hotel chains, and top-tier car rental agencies, we provide a seamless experience to plan your entire trip in one place. Our mission is to empower global travelers with transparency and the best deals, ensuring every journey is as affordable as it is unforgettable.", footer_links_h4: "Quick Links", footer_contact_h4: "Contact", footer_addr: "Zarqa, Jordan", footer_copy: "&copy; 2026 60 Trips. All rights reserved.", nav_contact: "Contact", footer_privacy: "Privacy Policy", footer_terms: "Terms of Service", app_get_it: "GET IT ON", app_google_play: "Google Play", nav_cars: "Premium Cars", nav_large_cars: "SUV / 4WD",
+                intro: "Greece is where history and myth converge under an endless sapphire sky. From the colossal marble ruins of Athens to the whitewashed dreams of the Cyclades, this is a land that taught the world the meaning of harmony and beauty. Whether you seek the intellectual depth of ancient philosophy or the simple perfection of a Mediterranean sunset, Greece offers a timeless sanctuary for the wandering soul.",
+                sec1_h: "1. The Acropolis: Athens' Sacred Rock",
+                sec1_p: "Crowning the city of Athens, the Acropolis and its most famous temple, the Parthenon, represent the absolute pinnacle of classical Greek architecture and the birthplace of Western democracy. Built in the 5th century BC during the Golden Age of Pericles, these sacred marble structures were dedicated to the goddess Athena, the protector of the city. Walking up the marble steps of the Propylaea feels like a journey back to the height of ancient civilization, where every column and frieze tells a story of gods, heroes, and the dawn of philosophy. The Acropolis is not just an archaeological site; it is a profound symbol of the human spirit's capacity for harmony, balance, and intellectual pursuit. From its heights, the sprawl of modern Athens stretches to the sea, offering a breathtaking contrast between the eternal past and the vibrant present.",
+                sec2_h: "2. Santorini: The Island of Radiant Light",
+                sec2_p: "Santorini is perhaps the most visually arresting island in the world, a crescent-shaped masterpiece forged by a massive volcanic eruption thousands of years ago. Known as 'Thira' in Greek, the island is characterized by its stark white villages, such as Oia and Fira, which cling precariously to the steep cliffs of the caldera. The contrast between the blinding white architecture, the deep sapphire blue of the domes, and the shimmering turquoise of the Aegean Sea below is a sensory experience of pure radiance. Beyond its famous sunsets, Santorini offers unique volcanic beaches with black, red, and white sands, as well as the prehistoric ruins of Akrotiri, a city frozen in volcanic ash. It is a place of ethereal beauty, where the light seems to glow from within the stones themselves, creating a romantic atmosphere that has captivated travelers for generations.",
+                sec3_h: "3. Meteora: The Monasteries in the Sky",
+                sec3_p: "In the heart of mainland Greece, the rock pillars of Meteora rise like massive stone fingers toward the heavens, creating one of the most spiritually and geographically spectacular landscapes on Earth. 'Meteora' literally translates to 'suspended in the air', and perched atop these seemingly inaccessible sandstone cliffs are ancient Byzantine monasteries that have served as retreats for monks since the 14th century. Originally accessed only by rope ladders and nets, six of these extraordinary monasteries remain open to the public today. Exploring their frescoed interiors and quiet courtyards provides a profound sense of peace and a glimpse into a world of monastic devotion. The view from the heights, looking down over the Pindus Mountains and the Pineios River, is a reminder of the sublime intersection between raw nature and human faith.",
+                sec4_h: "4. Mykonos: The Cosmopolitan Gem of the Cyclades",
+                sec4_p: "Mykonos is the ultimate cosmopolitan destination in the Mediterranean, a vibrant island where traditional Cycladic charm meets world-class luxury and a legendary nightlife. Known as the 'Island of the Winds', Mykonos is famous for its iconic 16th-century windmills that overlook the harbor of Chora. The town itself is a labyrinth of narrow, whitewashed alleys filled with high-end boutiques, art galleries, and colorful bougainvillea. Little Venice, where historic houses seem to float on the water's edge, is the perfect spot to enjoy a sunset cocktail as the waves crash against the foundations. Beyond the glamour, Mykonos offers stunning beaches like Psarou and Panormos, and easy access to the sacred island of Delos, the mythological birthplace of Apollo and Artemis. It is an island of endless energy, where the party never stops and the beauty never fades.",
+                sec5_h: "5. Crete: The Cradle of Minoan Civilization",
+                sec5_p: "Crete, the largest of the Greek islands, is a world unto itself, a land of rugged mountains, fertile valleys, and a history that stretches back to the dawn of European civilization. The Palace of Knossos, located near Heraklion, is the legendary center of the Minoan civilization and the site of the mythical Labyrinth of the Minotaur. Exploring its reconstructed chambers and vibrant frescoes reveals a culture of incredible artistic and architectural sophistication. Beyond its ruins, Crete is a landscape of diverse beauty, from the Venetian harbors of Chania and Rethymno to the turquoise lagoons of Elafonisi and the dramatic Samaria Gorge. The island is also famous for its Cretan hospitality and a culinary tradition that is considered one of the healthiest and most delicious in the world. Crete is a destination that demands to be explored deeply, offering a rich tapestry of myth, history, and natural wonder.",
+                sec6_h: "6. Zakynthos: The Turquoise Waters of Navagio",
+                sec6_p: "Zakynthos, also known as 'Zante', is home to one of the most photographed beaches in the world: Navagio, or Shipwreck Beach. This secluded cove, accessible only by boat, is famous for its vibrant turquoise waters and the rusting hull of a freight-liner that ran aground on its white sands in 1980. Surrounded by towering white limestone cliffs, the beach is a spectacle of natural drama. Beyond Navagio, the island of Zakynthos offers a lush interior of olive groves and vineyards, as well as the Blue Caves, where the light reflects off the water to create an ethereal blue glow. The island is also an important sanctuary for the endangered loggerhead sea turtle (Caretta caretta), which nests on the sandy shores of Laganas Bay. Zakynthos is a place where the raw power of the Ionian Sea meets the gentle beauty of a Mediterranean garden.",
+                sec7_h: "7. Rhodes: A Journey into Medieval Grandeur",
+                sec7_p: "Rhodes, the 'Island of the Knights', offers a fascinating journey into the medieval past. Its UNESCO-listed Old Town is one of the best-preserved medieval cities in Europe, enclosed by impressive honey-colored walls and a deep moat. Walking down the cobblestone Street of the Knights leads to the Palace of the Grand Master, a fortress of imposing towers and intricate mosaics. The island’s history is a layer-cake of influences, from the ancient Acropolis of Lindos to the elegant Italian-era architecture of Rhodes Town. Beyond its historic walls, Rhodes offers miles of sandy beaches, the lush Valley of the Butterflies, and a vibrant local culture. It is an island where the echoes of Crusaders and Ottoman governors still linger in the air, creating a rich atmosphere of historical discovery and Mediterranean charm.",
+                sec8_h: "8. The Hidden Gems: From Hydra to Milos",
+                sec8_p: "Beyond the famous names, the Greek archipelago is home to hundreds of hidden gems, each with its own unique character. Hydra, a car-free island in the Saronic Gulf, is a haven of artistic inspiration and quiet elegance, where donkeys remain the primary mode of transport. Milos, the 'Island of Colors', is famous for its surreal volcanic landscapes and the white lunar-like rocks of Sarakiniko beach. Islands like Paros and Naxos offer a more laid-back Cycladic experience, with stunning beaches and traditional mountain villages. Exploring these lesser-known islands reveals a more authentic side of Greek life, where the pace is slow and the hospitality is legendary. Whether you are sailing between the secluded coves of the Sporades or hiking the ancient paths of the Ionian Islands, the diversity of the Greek islands ensures that there is always something new to discover under the Aegean sun.",
+                trust_tag: "The Signature of Excellence", trust_h2: "Why Choose Luxe Voyages?", trust_1_h4: "Curated Excellence", trust_1_p: "Every destination and accommodation is hand-selected to meet the highest standards of luxury.", trust_2_h4: "Direct Booking", trust_2_p: "Book directly with verified premium providers to ensure the best rates and exclusive perks.", trust_3_h4: "Global Legacy", trust_3_p: "Our worldwide presence ensures you have premium support wherever your journey takes you.", testi_tag: "Guest Experiences", testi_h2: "From Our Global Travelers", testi_quote: "\"Luxe Voyages didn't just book a trip; they crafted an unforgettable experience. Every detail was handled with unparalleled professionalism.\"", testi_author: "Julian Montgomery", testi_origin: "Verified Global Traveler", 
+                conclusion: "<strong>The Infinite Allure of Greece:</strong> Greece is a country that stays with you long after the journey ends. Its combination of profound history, radiant natural beauty, and a deeply-rooted passion for life creates an experience that is both life-affirming and deeply relaxing. From the ancient stones of the Acropolis to the turquoise waters of the Ionian Sea, Greece offers a depth of beauty that is both profound and joyful. Discover the cradle of democracy and the timeless beauty of the Aegean for yourself. Welcome to Greece! Kalispera!"
+            },
+            ar: {
+                site_title: "60 تريبس | بوابتك إلى الفخامة العالمية والرحلات الحصرية", logo: "60 Trips", nav_home: "الرئيسية", nav_dest: "الوجهات", nav_resorts: "أنشطة المسافر", nav_exp: "نصائح السفر", nav_blog: "المدونة", nav_about: "من نحن", nav_services: "الخدمات", nav_experiences: "تجاربنا", footer_explore: "استكشف", news_h2: "انضم إلى عالم الصفوة", news_p: "اشترك لتصلك أحدث العروض الحصرية.", news_placeholder: "بريدك الإلكتروني", news_btn: "اشترك الآن", footer_about: "مرحباً بكم في 60trips.com، مركزكم العالمي الشامل لرحلات أكثر ذكاءً. نحن منصة رائدة في مجال خدمات السفر مكرسة لتبسيط الطريقة التي يسافر بها العالم. من خلال شراكتنا مع شركات الطيران الدولية الرائدة، وسلاسل الفنادق العالمية، ووكالات تأجير السيارات المتميزة، نقدم تجربة سلسة لتخطيط رحلتك بالكامل في مكان واحد. مهمتنا هي تمكين المسافرين العالميين من خلال الشفافية وأفضل العروض، لضمان أن تكون كل رحلة ميسورة التكلفة بقدر ما هي لا تُنسى.", footer_links_h4: "روابط سريعة", footer_contact_h4: "اتصل بنا", footer_addr: "Zarqa, Jordan", footer_copy: "&copy; 2026 60 Trips. جميع الحقوق محفوظة.", nav_contact: "اتصل بنا", footer_privacy: "سياسة الخصوصية", footer_terms: "شروط الخدمة", app_get_it: "احصل عليه من", app_google_play: "جوجل بلاي", nav_cars: "تأجير السيارات", nav_large_cars: "سيارات الدفع الرباعي",
+                intro: "اليونان هي المكان الذي يلتقي فيه التاريخ والأسطورة تحت سماء ياقوتية لا نهاية لها. من الأنقاض الرخامية الضخمة في أثينا إلى أحلام سيكلاديز البيضاء، هذه أرض علمت العالم معنى الانسجام والجمال. سواء كنت تبحث عن العمق الفكري للفلسفة القديمة أو الكمال البسيط لغروب الشمس في البحر الأبيض المتوسط، فإن اليونان تقدم ملاذاً خالداً للروح الهائمة في رحاب التاريخ والجمال.",
+                sec1_h: "1. الأكروبوليس: صخرة أثينا المقدسة",
+                sec1_p: "بتتويج مدينة أثينا، يمثل الأكروبوليس وجوهرته، البارثينون، قمة العمارة الكلاسيكية اليونانية ومهد الديمقراطية الغربية. بُنيت هذه المعابد المقدسة في القرن الخامس قبل الميلاد خلال العصر الذهبي لبيريكليس، وكانت مخصصة للإلهة أثينا، حامية المدينة. إن المشي فوق درجات الرخام في \"البروبيلايا\" يشبه رحلة عبر الزمن إلى ذروة الحضارة القديمة، حيث تروي كل قطعة من الرخام قصصاً عن الآلهة والأبطال وفجر الفلسفة. ليس الأكروبوليس مجرد موقع أثري؛ بل هو رمز عميق لقدرة الروح البشرية على تحقيق الانسجام والتوازن. ومن أعاليه، يمتد اتساع أثينا الحديثة وصولاً إلى البحر، مما يوفر تبايناً مذهلاً بين الماضي الأبدي والحاضر النابض بالحياة.",
+                sec2_h: "2. سانتوريني: جزيرة الضوء الساطع",
+                sec2_p: "ربما تكون سانتوريني الجزيرة الأكثر لفتاً للنظر بصرياً في العالم، وهي تحفة فنية على شكل هلال تشكلت نتيجة انفجار بركاني هائل منذ آلاف السنين. تشتهر الجزيرة، المعروفة باسم \"ثيرا\" باليونانية، بقرى ناصعة البياض مثل \"أويا\" و\"فيرا\"، التي تلتصق بالمنحدرات الشديدة للفوهة البركانية. التباين بين العمارة البيضاء المبهرة والقباب الزرقاء الياقوتية ومياه بحر إيجة الفيروزية المتلألئة بالأسفل هو تجربة حسية من الإشراق الخالص. بعيداً عن غروب الشمس الشهير، تقدم سانتوريني شواطئ بركانية فريدة برمال سوداء وحمراء وبيضاء، بالإضافة إلى أطلال \"أكروتيري\" التاريخية. إنها مكان للجمال الأثيري، حيث يبدو أن الضوء يشع من داخل الأحجار نفسها، مما يخلق جواً رومانسياً يأسر أفئدة المسافرين منذ أجيال.",
+                sec3_h: "3. ميتيورا: الأديرة المعلقة في السماء",
+                sec3_p: "في قلب اليونان القارية، ترتفع صخور ميتيورا مثل أصابع حجرية ضخمة نحو السماء، مشكلة واحداً من أكثر المشاهد روعة من الناحية الروحية والجغرافية على وجه الأرض. تعني كلمة \"ميتيورا\" حرفياً \"معلق في الهواء\"، وفوق هذه الجروف الرملية التي يبدو الوصول إليها مستحيلاً، تقع أديرة بيزنطية قديمة كانت بمثابة ملاذات للرهبان منذ القرن الرابع عشر. كان الوصول إليها قديماً يتم فقط عبر سلالم الحبال والشبكات، ولا تزال ستة من هذه الأديرة الاستثنائية مفتوحة للجمهور اليوم. استكشاف تصميماتها الداخلية المزينة بالرسومات والساحات الهادئة يوفر شعوراً عميقاً بالسلام ولمحة عن حياة التعبد الرهباني. المنظر من المرتفعات، المطل على جبال بيندوس ونهر بينيوس، هو تذكير بالتقاطع السامي بين الطبيعة الخام والإيمان البشري.",
+                sec4_h: "4. ميكونوس: الجوهرة العالمية لسيكلاديز",
+                sec4_p: "ميكونوس هي الوجهة العالمية الأولى في البحر الأبيض المتوسط، جزيرة نابضة بالحياة حيث يلتقي سحر سيكلاديز التقليدي مع الفخامة العالمية والحياة الليلية الأسطورية. تشتهر ميكونوس، المعروفة بـ \"جزيرة الرياح\"، بطواحين الهواء الأيقونية التي تعود للقرن السادس عشر وتطل على ميناء \"خورا\". المدينة نفسها عبارة عن متاهة من الأزقة الضيقة والمباني البيضاء المليئة بالبوتيكات الراقية والمعارض الفنية. تعد منطقة \"فينيسيا الصغيرة\"، حيث تبدو المنازل التاريخية وكأنها تطفو على حافة المياه، المكان المثالي للاستمتاع بغروب الشمس. بعيداً عن الصخب، تقدم ميكونوس شواطئ مذهلة ووصولاً سهلاً إلى جزيرة \"ديلوس\" المقدسة، المسقط الأسطوري لأبولو وأرتميس. إنها جزيرة من الطاقة اللانهائية، حيث لا يتوقف الجمال أبداً.",
+                sec5_h: "5. كريت: مهد الحضارة المينوسية",
+                sec5_p: "كريت، أكبر الجزر اليونانية، هي عالم بحد ذاته، أرض الجبال الوعرة والوديان الخصبة والتاريخ الذي يمتد إلى فجر الحضارة الأوروبية. قصر \"كنوسوس\"، الواقع بالقرب من هيراكليون، هو المركز الأسطوري للحضارة المينوسية وموقع متاهة \"المينوتور\" الشهيرة. يكشف استكشاف غرفه وأعماله الفنية عن ثقافة ذات رقي فني ومعماري مذهل. بعيداً عن أطلالها، كريت هي مشهد من الجمال المتنوع، من الموانئ الفينيسية في \"خانيا\" و\"ريثيمنو\" إلى بحيرات \"إلافونيسي\" الفيروزية ووادي \"ساماريا\" الدرامي. تشتهر الجزيرة أيضاً بكرم الضيافة والتقاليد الغذائية التي تعتبر من الأصح والألذ في العالم. كريت هي وجهة تستحق الاستكشاف بعمق، حيث تقدم نسيجاً غنياً من الأساطير والتاريخ والعجائب الطبيعية.",
+                sec6_h: "6. زاكينثوس: مياه نافاجيو الفيروزية",
+                sec6_p: "تعد زاكينثوس موطناً لواحد من أكثر الشواطئ التي يتم تصويرها في العالم: \"نافاجيو\"، أو شاطئ السفينة المحطمة. يشتهر هذا الخليج المنعزل، الذي لا يمكن الوصول إليه إلا عن طريق القوارب، بمياهه الفيروزية النابضة بالحياة وهيكل السفينة الصدئ الذي جنح على رماله البيضاء في عام 1980. المحاط بجدران منحدرة من الحجر الجيري الأبيض الشاهق، يعد الشاطئ مشهداً من الدراما الطبيعية. بعيداً عن نافاجيو، تقدم الجزيرة غابات الزيتون المورقة والكروم، بالإضافة إلى \"الكهوف الزرقاء\" حيث ينعكس الضوء على الماء ليخلق توهجاً أزرق أثيرياً. كما تعد الجزيرة ملجأً هاماً للسلاحف البحرية المهددة بالانقراض. زاكينثوس هي مكان تلتقي فيه القوة الخام للبحر الأيوني مع الجمال اللطيف لحديقة متوسطية.",
+                sec7_h: "7. رودس: رحلة إلى العظمة في القرون الوسطى",
+                sec7_p: "تقدم رودس، \"جزيرة الفرسان\"، رحلة رائعة إلى ماضي العصور الوسطى. تعد مدينتها القديمة المدرجة ضمن قائمة اليونسكو واحدة من أفضل المدن المحفوظة في أوروبا، محاطة بجدران ضخمة وخندق عميق. المشي في \"شارع الفرسان\" المرصوف بالحصى يؤدي إلى قصر السيد الأكبر، وهو حصن من الأبراج المهيبة والفسيفساء المعقدة. تاريخ الجزيرة عبارة عن طبقات من التأثيرات، من أكروبوليس \"ليندوس\" القديم إلى العمارة الإيطالية الأنيقة في المدينة. وبعيداً عن جدرانها التاريخية، تقدم رودس أميالاً من الشواطئ الرملية، و\"وادي الفراشات\" المورق، وثقافة محلية نابضة بالحياة. إنها جزيرة حيث لا تزال أصداء الصليبيين تتردد في الهواء، مما يخلق جواً غنياً بالاكتشاف التاريخي والسحر المتوسطي الفريد.",
+                sec8_h: "8. الجواهر المخفية: من هيدرا إلى ميلوس",
+                sec8_p: "بعيداً عن الأسماء الشهيرة، يعد الأرخبيل اليوناني موطناً لمئات الجواهر المخفية، لكل منها شخصيتها الفريدة. \"هيدرا\"، وهي جزيرة خالية من السيارات، هي ملاذ للإلهام الفني والأناقة الهادئة حيث تظل الحمير وسيلة النقل الرئيسية. أما \"ميلوس\"، فهي مشهورة بمناظرها البركانية السريالية وصخور شاطئ \"ساراكينيكو\" البيضاء التي تشبه سطح القمر. وتقدم جزر مثل \"باروس\" و\"ناكسوس\" تجربة أكثر استرخاءً مع شواطئ خلابة وقرى جبلية تقليدية. يكشف استكشاف هذه الجزر الأقل شهرة عن جانب أكثر أصالة للحياة اليونانية، حيث تسير الحياة ببطء وتكون الضيافة أسطورية. وسواء كنت تبحث عن العزلة أو المغامرة، فإن تنوع الجزر اليونانية يضمن أن هناك دائماً شيئاً جديداً لاكتشافه تحت شمس بحر إيجة.",
+                conclusion: "<strong>جاذبية اليونان اللانهائية:</strong> اليونان هي بلد يبقى معك طويلاً بعد انتهاء الرحلة. إن مزيجها من التاريخ العميق والجمال الطبيعي الساطع والشغف المتجذر بالحياة يخلق تجربة تبعث على التفاؤل والاسترخاء العميق. من حجارة الأكروبوليس القديمة إلى مياه البحر الأيوني الفيروزية، توفر اليونان عمقاً من الجمال يغذي الروح. اكتشف مهد الديمقراطية والجمال الخالد لبحر إيجة بنفسك. أهلاً بكم في اليونان! مساء الخير (كاليسبيرا)!"
+            }
+        };
+
+        function translate(lang) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+            document.documentElement.lang = lang;
+            document.documentElement.dir = 'ltr';
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('selectedLang') || 'en';
+            translate(savedLang);
+        });
+    </script>
+
+    <!-- Why Choose Luxe Voyages -->
+    
+    <section class="trust-section">
+        <div class="container">
+            <span class="section-tag" data-i18n="trust_tag">The Signature of Excellence</span>
+            <h2 data-i18n="trust_h2">Why Choose Luxe Voyages?</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-crown"></i>
+                    <h4 data-i18n="trust_1_h4">Curated Excellence</h4>
+                    <p data-i18n="trust_1_p">Every destination and accommodation is hand-selected to meet the
+                        highest standards of luxury.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4 data-i18n="trust_2_h4">Direct Booking</h4>
+                    <p data-i18n="trust_2_p">Book directly with verified premium providers to ensure the best rates
+                        and exclusive perks.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h4 data-i18n="trust_3_h4">Global Legacy</h4>
+                    <p data-i18n="trust_3_p">Our worldwide presence ensures you have premium support wherever your
+                        journey takes you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <span class="section-tag" data-i18n="testi_tag">Guest Experiences</span>
+            <h2 data-i18n="testi_h2">From Our Global Travelers</h2>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <p data-i18n="testi_quote">
+                    "Luxe Voyages didn't just book a trip; they crafted an unforgettable experience. Every detail
+                    was handled with unparalleled professionalism."
+                </p>
+                <div style="color: var(--primary-gold); font-weight: 700; font-size: 1.1rem;" data-i18n="testi_author">
+                    Julian Montgomery</div>
+                <div style="font-size: 0.9rem; color: #777; margin-top: 5px;" data-i18n="testi_origin">Verified
+                    Global
+                    Traveler</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="shared-footer-container"></div>
+    <script src="../assets/js/header-component.js?v=1.6"></script>
+    <script src="../assets/js/footer-component.js?t=202602095"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
